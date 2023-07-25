@@ -1,0 +1,81 @@
+
+  
+  body {
+    background-image: url(https://musicschoolhaifa.co.il/wp-content/uploads/2021/06/Depositphotos_11929785_xl-2015.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 830px;
+  }
+  
+  main {
+    margin-left: 450px;
+    display: flex;
+  }
+  
+  
+  #gap {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .white {
+    height: 210px;
+    width: 64px;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    margin: 200px -10px 100px -10px;
+    padding: 0;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+  }
+  
+  .white:hover {
+    box-shadow: 5px 6px 8px 2px rgba(0, 30, 255, 0.782), inset 1px 2px 5px 3px rgba(40, 37, 37, 0.652);
+    color: black;
+    transition: color 1s;
+  }
+
+    .black {
+    position: relative;
+    height: 125px;
+    width: 20px;
+    margin-top: 200px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: black;
+    z-index: 5;
+  }
+  
+  .black:hover {
+    box-shadow: 2px 3px 4px 4px rgba(180, 117, 207, 0.652), inset 4px 2px 6px 2px rgba(219, 214, 214, 0.652);
+    color: white;
+    transition: color 1s;
+  }
+
+  .ltrW {
+    margin-left: 20px;
+  }
+
+  
+  .ltrB {
+    margin-top: 95px;
+    margin-left: 4px;
+  }
+
+  p {
+    margin-top: 150px;
+    margin-left: 15px;
+  }
+  
+
+  h1 {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    opacity: 80%;
+  }
